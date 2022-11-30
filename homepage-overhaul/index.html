@@ -10,7 +10,7 @@
     
 <!-- Add an id attribute with a value of "top" to the opening body tag. -->
     
-    <body>
+    <body><a name="top"></a>
         
 <!-- PAGE HEADER -->  
     <header>   
@@ -86,9 +86,9 @@
             <!-- Create an image bar using an aside element. The aside element should contain two figures.-->
             
                 <!-- FIGURE 1 -->
-                <figure>
+                
                     <!-- Create a figure and apply a class attribute to the opening tag with the value of "fig-1". This figure should contain an image and a figcaption. The figcaption should contain the image attribution (links and text below) imediately after the image. -->      
-
+                <figure class="fig-1">
                     <!-- Add the image "puddle-1-medium.jpg" to the figure. Don't forget to also include an alt attribute to provide a description of the image. -->
                     <img src="images/puddle-1-medium.jpg" alt="Tree Reflection on Puddle">
                         <!-- Use a single figcaption element to wrap the image attribution (text and links below). -->
@@ -99,9 +99,9 @@
                     </figcaption>
                 </figure>
                 <!-- FIGURE 2 -->
-                <figure>
+                
                     <!-- Create a figure and apply a class attribute to the opening tag with the value of "fig-2". -->
-                        
+                <figure class="fig-2">        
                         <!-- Add the image "puddle-2-medium.jpg" to the figure. Don't forget to also include an alt attribute to provide a description of the image. -->
                         <img src="images/puddle-2-medium.jpg" alt="Sky Reflection on Puddle">
                         <!-- Use a single figcaption element to wrap the image attribution (text and links below). --> 
@@ -125,8 +125,8 @@
         
             <!-- Using the text "C.E. Truffaut" create an email hyperlink for the email address "ce.truffaut@cwu.edu". --> 
         
-            <p>Back to top</p>
-            <p>&copy; 2020 C.E. Truffaut</p>
+            <p class="return"> <a href="#top">Back to top</a></p>
+            <p class="copyright">&copy; 2020 <a href="ce.truffaut@cwu.edu">C.E. Truffaut</a></p>
         </footer>
     </body>
 </html>

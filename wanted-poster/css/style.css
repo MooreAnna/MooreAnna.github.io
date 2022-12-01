@@ -100,7 +100,11 @@ h4 {
 }
 
 h4 > span {
-    padding: 0 .5rem 0 .5rem;
+    background-color:#000;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 h5 {

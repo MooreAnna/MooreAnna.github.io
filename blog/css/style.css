@@ -255,10 +255,10 @@ button:hover {
 }
 
 button:visited{
-    color:rgb(237, 220, 244)
+    color:rgb(237, 220, 244);
 }
 button:active{
-    color:white
+    color:white;
 }
 
 /* Subsection */

@@ -253,7 +253,14 @@ button a {
 }
 
 button:hover {
-    color:#000;
+    color:rgb(197, 250, 205);
+}
+
+button:visited{
+    color:rgb(225, 160, 254)
+}
+button:active{
+    color:white
 }
 
 /* Subsection */

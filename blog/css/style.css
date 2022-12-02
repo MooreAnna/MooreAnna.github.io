@@ -234,7 +234,7 @@ article {
 
 /* Buttion */
 
-button {
+.button {
     margin-top:1rem;
     padding:1rem;
     font-family:Ultra;
@@ -246,11 +246,20 @@ button {
     border-radius:.625rem;
 }
 
-button a {
+.button a {
     color:#EED;
 }
 
+.button:hover {
+    color:rgb(197, 250, 205);
+}
 
+.button:visited{
+    color:rgb(237, 220, 244);
+}
+.button:active{
+    color:white;
+}
 
 /* Subsection */
 

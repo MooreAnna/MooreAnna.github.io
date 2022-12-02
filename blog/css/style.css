@@ -250,16 +250,7 @@ button a {
     color:#EED;
 }
 
-button:hover {
-    color:rgb(197, 250, 205);
-}
 
-button:visited{
-    color:rgb(237, 220, 244);
-}
-button:active{
-    color:white;
-}
 
 /* Subsection */
 
